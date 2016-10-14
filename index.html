@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<style type="text/css">
+    #zz {
+        width: 860px;
+    }
+    
+    .yy,
+    .zz {
+        position: relative;
+        margin: 20px;
+        width: 80px;
+        height: 80px;
+        background: #333;
+        background: url(img/tt.png)-32px -14px no-repeat;
+    }
+    
+    .xx .zz {
+        margin-top: 50px;
+    }
+    
+    .aa {
+        position: absolute;
+        top: -155px;
+        left: -10px;
+        width: 80px;
+        height: 155px;
+        background: #621;
+    }
+    
+    .bb {
+        position: absolute;
+        top: -154px;
+        left: -15px;
+        width: 80px;
+        height: 155px;
+        background: #126;
+    }
+    
+    p {
+        position: absolute;
+        width: 100px;
+        background: deepskyblue;
+        color: #666;
+        top: -210px;
+    }
+    
+    .dd {
+        text-align: center;
+    }
+    
+    .aa {
+        background: url(img/tu.png)0px -62px no-repeat;
+    }
+    
+    .bb {
+        background: url(img/tu.png)-126px -62px no-repeat;
+    }
+</style>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+<body>
+    <div class="row xx" id="zz" style="margin: 200px auto 100px;">
+        <div class="col-xs-1 yy"></div>
+        <div class="col-xs-1 yy"></div>
+        <div class="col-xs-1 yy"></div>
+        <div class="col-xs-1 zz"></div>
+        <div class="col-xs-1 yy"></div>
+        <div class="col-xs-1 yy"></div>
+        <div class="col-xs-1 yy"></div>
+        <!--<div class="visible-sm" style='width:100px;height:100px;background:red;'></div>
+        <div class="visible-xs" style='width:100px;height:100px;background:green;'></div>
+        <div class="visible-md" style='width:100px;height:100px;background:black;'></div>
+        <div class="visible-lg" style='width:100px;height:100px;background:blue;'></div>-->
+    </div>
+    <div class="dd">游戏开始，可以直接跳一格，红色只能向右跳，蓝色只能向左跳，前边如果有竖条，可以跳到第二个上边，如果前边俩个都有竖条，禁止向前跳</div>
+</body>
+<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/new_file.js" type="text/javascript" charset="utf-8"></script>
+
+</html>
